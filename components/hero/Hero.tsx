@@ -24,7 +24,7 @@ const Hero = () => {
       governments, and the Fortune 500.
      </p>
      <div className="flex gap-4 items-center justify-center md:justify-start">
-      <WhiteBtn href={"/"} children={"Book a Demo"} />
+      <WhiteBtn href={"/"}>Book a Demo</WhiteBtn>
       <TransLink href={"/"}>Build AI →</TransLink>
      </div>
     </div>

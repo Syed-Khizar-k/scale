@@ -61,7 +61,7 @@ const Nav = () => {
 
     {/* ======== Right-side Action Buttons (Desktop) ======== */}
     <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:gap-x-4">
-     <WhiteBtn href={"/demo"} children={"Book a Demo"} />
+     <WhiteBtn href={"/demo"}>Book a Demo</WhiteBtn>
      <TransLink href="/login">Log In</TransLink>
     </div>
    </div>
