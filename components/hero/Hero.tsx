@@ -16,16 +16,17 @@ const Hero = () => {
     </div>
     <div>
      <h1 className="text-[2.7rem] font-light leading-none md:leading-tight xl:leading-[80px] lg:text-6xl xl:text-7xl -tracking-[1%] font-aeonik max-w-2xl xl:max-w-4xl text-balance text-center md:text-left">
-      <span className="text-[#bbdef2]">Breakthrough</span> AI from Data to
-      Deployment
+      <span className="text-[#bbdef2]">Automate.</span> Save. Scale.
      </h1>
      <p className="my-6 font-sans text-base text-white/80 sm:px-0 font-normal lg:my-[22px] lg:text-lg md:w-11/12 lg:max-w-lg text-balance text-center md:text-left">
-      Scale delivers proven data, evaluations, and outcomes to AI labs,
-      governments, and the Fortune 500.
+      RocketOps.ai empowers SMEs in UAE & GCC to slash overhead, speed
+      operations, and grow — by automating workflows, integrating ERP, and
+      deploying AI agents.
      </p>
-     <div className="flex gap-4 items-center justify-center md:justify-start">
-      <WhiteBtn href={"/"}>Book a Demo</WhiteBtn>
-      <TransLink href={"/"}>Build AI →</TransLink>
+
+     <div className="flex gap-4 flex-wrap md:justify-start justify-center items-center ">
+      <WhiteBtn href={"/"}>Get Free Automation Audits</WhiteBtn>
+      <TransLink href={"/"}>See Demo Workflows →</TransLink>
      </div>
     </div>
    </div>

@@ -4,11 +4,12 @@ import Link from "next/link";
 // Data for the footer links, making it easier to manage
 const footerSections = [
  {
-  title: "Products",
+  title: "Services",
   links: [
-   { href: "/data-engine", text: "Scale Data Engine" },
-   { href: "/genai-platform", text: "Scale GenAI Platform" },
-   { href: "/donovan", text: "Scale Donovan" },
+   { href: "/", text: "AI Development" },
+   { href: "/", text: "Automation Services" },
+   { href: "/", text: "Data Engineering" },
+   { href: "/", text: "ML Consulting" },
   ],
   // Special nested section for 'Government' as in the original structure
   nested: {
@@ -27,28 +28,23 @@ const footerSections = [
   ],
  },
  {
-  title: "Resources",
+  title: "Industries",
   links: [
-   { href: "/blog", text: "Blog" },
-   { href: "/contact-us", text: "Contact Us" },
-   { href: "/customers", text: "Customers" },
-   { href: "/events", text: "Events" },
-   { href: "/docs", text: "Documentation" },
-   { href: "/guides", text: "Guides" },
-   { href: "https://exchange.scale.com/", text: "Community" },
-   { href: "/ai-readiness-report", text: "AI Readiness Report 2024" },
-   { href: "/research", text: "Research" },
+   { href: "/", text: "Healthcare" },
+   { href: "/", text: "Finance" },
+   { href: "/", text: "E-commerce" },
+   { href: "/", text: "Manufacturing" },
   ],
  },
  {
-  title: "Guides",
+  title: "Get in Touch",
   links: [
-   { href: "/guides/data-labeling-annotation-guide", text: "Data Labeling" },
-   { href: "/guides/model-training-building", text: "ML Model Training" },
-   { href: "/guides/diffusion-models-guide", text: "Diffusion Models" },
-   { href: "/guides/ai-for-ecommerce", text: "Guide to AI for eCommerce" },
-   { href: "/guides/computer-vision", text: "Computer Vision Applications" },
-   { href: "/guides/large-language-models", text: "Large Language Models" },
+   {
+    href: "/",
+    text: "sami@rocketops.ai",
+   },
+   { href: "/", text: "+971-55-305-5243" },
+   { href: "/", text: "Dubai, UAE" },
   ],
  },
 ];
@@ -150,7 +146,7 @@ const Footer = () => {
     </nav>
     <div className="flex text-xs md:text-sm justify-between flex-col md:flex-row pt-6 md:mt-12 pb-12 border-neutral-800 border-t">
      <span className="text-neutral-400">
-      Copyright © 2025 Scale AI, Inc. All rights reserved.
+      © 2025 RocketOps. All rights reserved.
      </span>
      <span className="mt-4 md:mt-0 text-neutral-400">
       <Link className="text-neutral-400 font-normal" href="/legal/terms">

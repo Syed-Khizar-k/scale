@@ -7,12 +7,12 @@ import WhiteBtn from "../ui/WhiteBtn";
 
 // Navigation links are stored here for easy management
 const navLinks = [
- { href: "/products", label: "Products" },
- { href: "/leaderboards", label: "Leaderboards" },
- { href: "/enterprise/agentic-solutions", label: "Enterprise" },
- { href: "/public-sector", label: "Government" },
- { href: "/customers", label: "Customers" },
- { href: "/resources", label: "Resources" },
+ { href: "/", label: "Home" },
+ { href: "/about", label: "About" },
+ { href: "/services", label: "Services" },
+ { href: "/industries", label: "Industries" },
+ { href: "/team", label: "Team" },
+ { href: "/contact", label: "Contact" },
 ];
 
 const Nav = () => {

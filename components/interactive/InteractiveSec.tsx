@@ -12,24 +12,38 @@ import "swiper/css/pagination";
 const featureSections = [
  {
   id: "fine-tuning",
-  title: "Fine-Tuning and RLHF",
+  title: "Workflow Automation",
   description:
-   "Adapt best-in-class foundation models to your business and your specific data to build sustainable, successful AI programs and data from your enterprise.",
+   "Design & build workflows using n8n to connect your apps . Eliminate manual data entry, errors, and delays",
   image: "/interactive/step3.jpg",
  },
  {
-  id: "foundation-models",
+  id: "ERP Integration",
   title: "Foundation Models",
   description:
-   "Scale partners or integrates with all of the leading AI models, from open-source to closed-source, including Google, Meta, Cohere, and more.",
+   "Seamless syncing between your ERP and business tools . Your systems talk; everything stays up to date",
   image: "/interactive/step2.jpg", // Make sure you have different images
  },
  {
   id: "enterprise-data",
-  title: "Enterprise Data",
+  title: "AI & Automation Agents",
   description:
-   "Scale's Data Engine enables you to integrate your enterprise data into the fold of these models, providing the base for long-term strategic differentiation.",
+   "Use voice, chat, predictive logic to handle repetitive tasks. Let AI agents do the heavy lifting",
   image: "/interactive/step3.jpg", // Make sure you have different images
+ },
+ {
+  id: "enterproise-data",
+  title: "Outreach Automation",
+  description:
+   "Lead scraping + AI voice calls + email nurture sequences . Fill your pipeline without lifting a finger",
+  image: "/interactive/step3.jpg", // Make sure you have different images
+ },
+ {
+  id: "enterpse-data",
+  title: "Managed & Support Services",
+  description:
+   "Monitor, maintain, and evolve your automations.Zero downtime — always improving",
+  image: "/interactive/step2.jpg", // Make sure you have different images
  },
 ];
 
