@@ -9,10 +9,10 @@ const DemoSec = () => {
     <div className="text-xs leading-6 tracking-[1px] mb-5 uppercase font-geist-mono">
      <span>What We Do</span>
     </div>
-    <h2 className="font-aeonik leading-snug lg:leading-tight text-3xl md:text-4.5xl lg:text-5xl text-balance">
+    <h2 className="font-aeonik leading-snug lg:leading-tight text-3xl md:text-4.5xl lg:text-5xl text-balance" style={{color:'#bbdef2'}}>
      Services That Transform Your Business
     </h2>
-    <p className="mt-4 lg:mt-2 leading-[1.60] lg:text-xl text-balance [white-space:inherit] block font-normal">
+    <p className="mt-4 lg:mt-2 leading-[1.60] lg:text-xl text-balance [white-space:inherit] block font-normal" style={{color:'#bbdef2'}}>
      From workflow automation to AI agents, we provide comprehensive solutions
      tailored to SME business needs.
     </p>

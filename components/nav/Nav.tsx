@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import TransLink from "../ui/TransLink";
 import WhiteBtn from "../ui/WhiteBtn";
 
-// Navigation links are stored here for easy management
 const navLinks = [
  { href: "/", label: "Home" },
  { href: "/about", label: "About" },
@@ -22,17 +21,11 @@ const Nav = () => {
   <header className="w-full border-b border-white/10 bg-black">
    <div className="container mx-auto flex min-h-14 items-center justify-between px-6 md:px-8 lg:relative lg:min-h-[88px]">
     {/* ======== Logo & Mobile Toggle ======== */}
-    <div className="flex w-full items-center justify-between lg:w-auto lg:flex-1">
+    <div className="flex w-full items-center justify-between lg:w-auto lg:flex-1" style={{ color: "#fff" }}>
      <Link href="/">
-      <h2 className="sr-only">Scale AI logo</h2>
-      <Image
-       height="20"
-       width="63"
-       src={"/nav/nav_logo.svg"}
-       alt={"nav_logo"}
-      />
+      <h2 className="sr-only">RocketOps AI logo</h2>
+      Rocket Ops
      </Link>
-     {/* Mobile menu button - Toggles sidebar visibility */}
      <div
       className="flex cursor-pointer items-center lg:hidden"
       onClick={() => setIsSidebarOpen(true)}>
@@ -50,7 +43,11 @@ const Nav = () => {
       <ul className="flex gap-x-6">
        {navLinks.map((link) => (
         <li key={link.href}>
-         <Link href={link.href} className="py-1 text-sm font-normal leading-5">
+         <Link
+          href={link.href}
+          className="py-1 text-sm font-normal leading-5"
+          style={{ color: "#bbdef2" }}  // 🌟 Nav link color
+         >
           {link.label}
          </Link>
         </li>
@@ -69,16 +66,10 @@ const Nav = () => {
    {/* ======== Mobile Sidebar ======== */}
    {isSidebarOpen && (
     <div className="fixed w-full inset-0 z-50 bg-black/30 backdrop-blur-sm lg:hidden">
-     <div className=" h-full  w-full px-6 py-4 shadow-lg">
-      {/* Sidebar Header */}
+     <div className="h-full w-full px-6 py-4 shadow-lg">
       <div className="flex items-center justify-between pb-4">
        <Link href="/">
-        <Image
-         height="20"
-         width="63"
-         src={"/nav/nav_logo.svg"}
-         alt={"nav_logo"}
-        />
+        <Image height="20" width="63" src={"/nav/nav_logo.svg"} alt={"nav_logo"} />
        </Link>
        <button onClick={() => setIsSidebarOpen(false)}>
         <svg
@@ -102,19 +93,16 @@ const Nav = () => {
         <Link
          key={link.href}
          href={link.href}
-         className="flex items-center justify-between text-lg font-medium text-white"
-         onClick={() => setIsSidebarOpen(false)} // Close sidebar on link click
-        >
+         className="flex items-center justify-between text-lg font-medium"
+         style={{ color: "#bbdef2" }}  // 🌟 Mobile nav link color
+         onClick={() => setIsSidebarOpen(false)}>
          {link.label}
-         {/* Optional arrow icon for some links, uncomment if needed */}
-         {/* {(link.label === "Products" || link.label === "Customers" || link.label === "Resources") && (
-                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
-                  )} */}
         </Link>
        ))}
        <Link
         href="https://dashboard.scale.com/login"
-        className="flex items-center justify-between text-lg font-medium text-white"
+        className="flex items-center justify-between text-lg font-medium"
+        style={{ color: "#bbdef2" }}  // 🌟 Sign In link color
         onClick={() => setIsSidebarOpen(false)}>
         Sign In
        </Link>

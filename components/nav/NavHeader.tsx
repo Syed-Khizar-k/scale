@@ -15,7 +15,7 @@ const NavHeader = () => {
     </span>
 
     <p className="text-white text-[0.875rem] md:text-[1rem] md:leading-6 leading-6">
-     Introducing SEAL Showdown: Real People, Real Conversations, Real Rankings
+     Introducing RocketOps: Real People, Real Conversations, Real Rankings
     </p>
 
     <Link
