@@ -6,22 +6,22 @@ import TransLink from "../ui/TransLink";
 const Hero = () => {
   return (
     <section className="w-full bg-black">
-      <div className="container mx-auto md:px-[32px] px-[24px] pt-[48px] pb-0 md:pt-[216px] flex flex-col md:flex-row-reverse items-center md:items-start md:justify-between">
+      <div className="container mx-auto md:px-[32px] px-[24px] pb-0 flex flex-col md:flex-row-reverse items-center md:items-start md:justify-between">
         
-        {/* 🚀 Rocket Launch Video */}
-        <div className="relative h-auto w-auto flex justify-center items-center">
+        {/* 🚀 Rocket Launch Video (no top padding) */}
+        <div className="relative flex justify-center items-center md:w-1/2 w-full md:pt-0 pt-[48px] mt-25">
           <video
-            src="/rocket-launch.mp4" // ✅ path relative to public/
+            src="/rocket-launch.mp4"
             autoPlay
             loop
             muted
             playsInline
-            className="md:h-[360px] md:w-[400px] h-[300px] w-full object-contain"
+            className="w-full h-full max-h-[500px]"
           />
         </div>
 
-        {/* 📝 Text Section */}
-        <div>
+        {/* 📝 Text Section (keeps top padding) */}
+        <div className="md:w-1/2 w-full md:pt-[216px] pt-[48px]">
           <h1 className="text-[2.7rem] font-light leading-none md:leading-tight xl:leading-[80px] lg:text-6xl xl:text-7xl -tracking-[1%] font-aeonik max-w-2xl xl:max-w-4xl text-balance text-center md:text-left">
             <span className="text-[#bbdef2]">Automate. Save. Scale.</span>
           </h1>
