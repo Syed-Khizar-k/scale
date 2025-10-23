@@ -5,6 +5,7 @@ import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import CaseStudies from "@/components/home/CaseStudies";
 import FrontierAi from "@/components/home/FrontierAi";
+import Future from "@/components/home/Future";
 import MultipleCards from "@/components/home/MultipleCards";
 import Secure from "@/components/home/Secure";
 import Solutions from "@/components/home/Solutions";
@@ -31,7 +32,8 @@ export default function Home() {
    <FrontierAi />
    <Testimonials />
    <CaseStudies />
-   <Secure/>
+   <Secure />
+   <Future />
    <Footer />
   </main>
  );
