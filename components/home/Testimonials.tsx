@@ -48,7 +48,7 @@ const testimonials: Testimonial[] = [
    "RocketOps transformed our operations with their AI automation solutions. We've seen 40% increase in efficiency.",
   author: "Ahmed Al-Mansouri",
   title: "CEO, Tech Innovations UAE",
-  logoId: "eureka",
+  logoId: "eurekad",
   LogoComponent: EurekaLogo,
  },
  {

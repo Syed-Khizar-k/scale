@@ -37,20 +37,7 @@ const LifeAtRocket = () => {
    <div className="flex flex-col justify-stretch items-center">
     {/* --- YOUTUBE VIDEO SECTION --- */}
     {/* I've replaced the custom padding-bottom with Tailwind's aspect-video */}
-    <div className="w-[calc(100%_-_24px)] md:w-[calc(100%_-_64px)] lg:w-[calc(100%_-_30vw)]">
-     <div className="relative w-full aspect-video  border-2 border-[#e5e7eb41] rounded-xl">
-      <iframe
-       frameBorder="0"
-       allowFullScreen
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       referrerPolicy="strict-origin-when-cross-origin"
-       title="Life at Scale"
-       width="100%"
-       height="100%"
-       src="https://www.youtube.com/embed/wuGBwQ7sQac?autoplay=0&mute=1&controls=1&origin=https%3A%2F%2Fscale.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1"
-       className="absolute inset-0 z-2 rounded-xl"></iframe>
-     </div>
-    </div>
+    
 
     {/* --- KEEN SLIDER SECTION --- */}
     <div className="relative w-full mt-10 mb-16 max-w-[1792px]">

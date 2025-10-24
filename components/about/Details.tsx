@@ -16,7 +16,7 @@ const SanFranciscoHq = () => {
       decoding="async"
       className="w-full h-auto" // Replaced generated class with functional Tailwind
       style={{ color: "transparent" }}
-      src="/about/gradient_img.webp"
+      src="/about/workflow.webp"
      />
      <div className="flex flex-col justify-center items-center mx-auto mb-10 max-w-3xl text-center md:mb-20 md:mt-12">
       <div className="text-xs leading-6 tracking-[1px] mb-5 uppercase font-geist-mono">

@@ -5,7 +5,7 @@ import LearnMore from "@/components/about/LearnMore";
 import LifeAtRocket from "@/components/about/LifeAtRocket";
 import TrustedBy from "@/components/about/TrustedBy";
 import Footer from "@/components/footer/Footer";
-import Secure from "@/components/home/Future";
+import Future from "@/components/home/Future";
 import Nav from "@/components/nav/Nav";
 import NavHeader from "@/components/nav/NavHeader";
 import React from "react";
@@ -20,7 +20,7 @@ const page = () => {
    <TrustedBy />
    <LearnMore />
    <Careers />
-   <Secure />
+   <Future />
    <Footer />
   </section>
  );

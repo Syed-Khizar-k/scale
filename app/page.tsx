@@ -18,7 +18,6 @@ import Partener from "@/components/partener/Partener";
 export default function Home() {
  return (
   <main className="">
-   <NavHeader />
    <Nav />
    <Hero />
    <Companies />

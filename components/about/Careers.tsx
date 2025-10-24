@@ -103,7 +103,7 @@ const Careers = () => {
   },
  ];
  return (
-  <section className="w-full bg-black pt-6 pb-16">
+  <section className="w-full bg-black pt-6 pb-16 ">
    <div className="container mx-auto px-6 md:px-8">
     <div className="pb-[60px]">
      {/* Header Text (no change) */}
