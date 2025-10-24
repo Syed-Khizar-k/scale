@@ -9,7 +9,7 @@ const footerSections = [
    { href: "/services/ai-agent-automation", text: "AI Automation" },
    { href: "/services/ai-development", text: "AI Development" },
    { href: "/services/data-engineering", text: "Data Engineering" },
-   { href: "services/machine-learning", text: "ML Consulting" },
+   { href: "/services/machine-learning", text: "ML Consulting" },
   ],
  },
  {
