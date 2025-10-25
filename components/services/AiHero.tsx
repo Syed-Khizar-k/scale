@@ -77,7 +77,7 @@ const AiHero = ({ slug }: { slug: string }) => {
     {/* 📝 Text Section (keeps top padding) */}
     <div className="md:w-1/2 w-full md:pt-0  pt-12">
      {/* Use dynamic heading */}
-     <h1 className="text-[2.7rem] font-light leading-none md:leading-tight xl:leading-20 lg:text-6xl xl:text-7xl -tracking-[1%] font-aeonik max-w-2xl xl:max-w-4xl text-balance text-center md:text-left">
+     <h1 className="text-[2.7rem] text-white font-light leading-none md:leading-tight xl:leading-20 lg:text-6xl xl:text-7xl -tracking-[1%] font-aeonik max-w-2xl xl:max-w-4xl text-balance text-center md:text-left">
       {content.heading}
      </h1>
 
