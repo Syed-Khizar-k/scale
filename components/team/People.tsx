@@ -45,7 +45,7 @@ const People = () => {
 
      {/* Main Heading */}
      <h2 className="text-center text-4xl md:text-5xl font-light mb-4">
-      Professionals Behind RocketOps
+      Life At RocketOps
      </h2>
     </div>
 
@@ -76,7 +76,9 @@ const People = () => {
     {/* I've replaced the custom CSS module classes with functional Tailwind 
           to create a similar-looking button.
         */}
-    <WhiteBtn href={"/careers"}>Book a Demo with Our Professionals</WhiteBtn>
+    <WhiteBtn href={"https://calendly.com/sami-rocketops/30min"}>
+     Book a Demo with Our Professionals
+    </WhiteBtn>
    </div>
   </section>
  );

@@ -65,8 +65,9 @@ const Nav = () => {
 
     {/* ======== Right-side Action Buttons (Desktop) ======== */}
     <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:gap-x-4">
-     <WhiteBtn href={"/demo"}>Book a Demo</WhiteBtn>
-     <TransLink href="/login">Log In</TransLink>
+     <WhiteBtn href={"https://calendly.com/sami-rocketops/30min"}>
+      Book a Demo
+     </WhiteBtn>
     </div>
    </div>
 
@@ -106,19 +107,12 @@ const Nav = () => {
          {link.label}
         </Link>
        ))}
-       <Link
-        href="https://dashboard.scale.com/login"
-        className="flex items-center justify-between text-lg font-medium"
-        style={{ color: "#bbdef2" }}
-        onClick={() => setIsSidebarOpen(false)}>
-        Sign In
-       </Link>
       </nav>
 
       {/* Sidebar "Book a Demo" Button */}
       <div className="mt-8">
        <Link
-        href="/demo"
+        href="https://calendly.com/sami-rocketops/30min"
         className="group relative block w-full rounded-xl focus-visible:outline focus-visible:outline-[rgba(255,255,255,0.64)] focus-visible:outline-offset-[3px]"
         onClick={() => setIsSidebarOpen(false)}>
         <div className="flex h-full rounded-[10px] cursor-pointer items-center justify-center whitespace-nowrap bg-white px-4 py-3 text-lg font-medium text-black">

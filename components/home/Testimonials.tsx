@@ -2,14 +2,6 @@
 // components/TestimonialSection.tsx
 import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-
-// --- Import Your Logo Components ---
-// Replace with your actual logo component paths
-
-// import EurekaLogo from './logos/EurekaLogo';
-// import NfdgLogo from './logos/NfdgLogo';
-
-// Simple placeholder logos if you don't have them yet
 const EurekaLogo: React.FC<{ className?: string }> = ({ className }) => (
  <span className={`font-serif text-2xl ${className}`}>Eureka</span>
 );
@@ -27,22 +19,7 @@ interface Testimonial {
 
 // 1. Define your testimonial data
 const testimonials: Testimonial[] = [
- //  {
- //   quote:
- //    "Great to see Gemini 1.5 pro top the new Scale SEAL leaderboard for adversarial robustness! Congrats to the entire Gemini team...and the AI safety team for leading the charge on building in robustness to our models as a core capability. Thanks to the Scale AI team for doing the vital work to create these rigorous benchmarks, the field needs more great work on topics like this",
- //   author: "Demis Hassabis",
- //   title: "CEO, DeepMind",
- //   logoId: "deepmind",
- //   LogoComponent: "DeepMindLogo",
- //  },
- //  {
- //   quote:
- //    "This is a second testimonial from Meta. We are very impressed with the results and the impact it has had on our development pipeline.",
- //   author: "Mark Zuckerberg",
- //   title: "CEO, Meta",
- //   logoId: "meta",
- //   LogoComponent: "MetaLogo",
- //  },
+
  {
   quote:
    "RocketOps transformed our operations with their AI automation solutions. We've seen 40% increase in efficiency.",
@@ -75,12 +52,12 @@ const TestimonialSection: React.FC = () => {
  const [selectedIndex, setSelectedIndex] = useState(0);
 
  // 3. Function to scroll to a specific slide
- const scrollTo = useCallback(
-  (index: number) => {
-   emblaApi?.scrollTo(index);
-  },
-  [emblaApi]
- );
+//  const scrollTo = useCallback(
+//   (index: number) => {
+//    emblaApi?.scrollTo(index);
+//   },
+//   [emblaApi]
+//  );
 
  // 4. Listen for slide changes and update the selectedIndex state
  useEffect(() => {
@@ -139,25 +116,7 @@ const TestimonialSection: React.FC = () => {
      </div>
     </div>
 
-    {/* Logo Indicators */}
-    <div className="flex justify-center items-center gap-8 md:gap-12 mt-12">
-     {testimonials.map((item, index) => {
-      const isActive = selectedIndex === index;
-      return (
-       <button
-        key={item.logoId}
-        onClick={() => scrollTo(index)}
-        aria-label={`Go to ${item.author}'s testimonial`}
-        className="opacity-100 transition-all duration-300">
-        <item.LogoComponent
-         className={
-          isActive ? "text-white" : "text-gray-600 hover:text-gray-400"
-         }
-        />
-       </button>
-      );
-     })}
-    </div>
+ 
    </div>
   </section>
  );

@@ -8,38 +8,38 @@ import Marquee from "react-fast-marquee";
 // We define the logos in an array to keep the JSX clean
 const logos = [
  {
-  alt: "meta",
-  src: "/about/logo1.svg",
-  width: 100,
-  height: 20,
+  alt: "n8n",
+  src: "/home/logos/n8n-logo.jpg",
+  width: 160,
+  height: 64,
  },
  {
-  alt: "Nuro",
-  src: "/about/logo2.svg",
+  alt: "vapi",
+  src: "/home/logos/vapi-logo.svg",
   width: 57,
   height: 16,
  },
  {
-  alt: "gm",
-  src: "/about/logo3.svg",
+  alt: "gemini",
+  src: "/home/logos/gemini-logo.jpg",
   width: 37,
   height: 37,
  },
  {
-  alt: "cohere",
-  src: "/about/logo4.svg",
+  alt: "chatgpt",
+  src: "/home/logos/gpt-logo.png",
   width: 108,
   height: 18,
  },
  {
-  alt: "brex",
-  src: "/about/logo5.svg",
+  alt: "11 labs",
+  src: "/home/logos/11-logo.webp",
   width: 72,
   height: 20,
  },
  {
-  alt: "adept",
-  src: "/about/logo6.svg",
+  alt: "claude",
+  src: "/home/logos/claude.jpg",
   width: 70,
   height: 24,
  },
@@ -63,7 +63,7 @@ const TrustedBy = () => {
    <div className="container mx-auto px-4">
     <div>
      {/* --- Top Paragraph --- */}
-     <p className="w-full mb-12 text-base text-center [text-wrap:balance] text-gray-400 max-w-[698px] px-4 mx-auto">
+     <p className="w-full mb-12 text-base text-center text-balance text-gray-400 max-w-[698px] px-4 mx-auto">
       <span className="mr-2">
        We are proud to be trusted by leading companies to provide a
        data-centric, end-to-end solution to manage the entire ML lifecycle.
@@ -86,23 +86,23 @@ const TrustedBy = () => {
      </p>
 
      {/* --- Desktop Logo Grid (Static) --- */}
-     <div className="hidden md:block">
+     <div className="hidden md:block w-full ">
       <ul
-       className="items-center justify-center grid gap-8 md:gap-y-16"
+       className="items-center container mx-auto justify-center grid gap-8 md:gap-y-16"
        style={{ gridTemplateColumns: "repeat(8, minmax(0, 1fr))" }}>
        {logos.map((logo) => (
         <li
          key={logo.alt}
          className="col-span-2 flex items-center justify-center">
-         <div className="relative">
+         <div className="relative ">
           <Image
-           alt={logo.alt}
-           width={logo.width}
-           height={logo.height}
-           decoding="async"
+           key={logo.alt}
            src={logo.src}
-           className="invert"
-           style={{ color: "transparent" }}
+           alt={logo.alt}
+           width={120} // ✅ Required width
+           height={32} // ✅ Required height
+           className="h-16 w-40 object-cover"
+           priority // improves LCP for above-the-fold images
           />
          </div>
         </li>
@@ -124,13 +124,13 @@ const TrustedBy = () => {
         >
          <div className="relative">
           <Image
-           alt={logo.alt}
-           width={logo.width}
-           height={logo.height}
-           decoding="async"
+           key={logo.alt}
            src={logo.src}
-           className="invert"
-           style={{ color: "transparent" }}
+           alt={logo.alt}
+           width={120} // ✅ Required width
+           height={32} // ✅ Required height
+           className="h-14 w-34 object-cover"
+           priority // improves LCP for above-the-fold images
           />
          </div>
         </li>

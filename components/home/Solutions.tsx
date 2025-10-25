@@ -10,11 +10,13 @@ const solutions = [
   title: "Agentic Solutions for Defense and Intelligence",
   description: "Orchestrate agent workflows for decision advantage.",
   imagePlaceholder: (
-   <Image
-    src={"/interactive/step2.jpg"}
-    alt={"gg"}
-    fill
-    className="object-cover rounded-[4px]"
+   <video
+    src="/videos/workflow-video.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="w-full h-full rounded-xl max-h-[500px]"
    />
   ),
  },
@@ -23,11 +25,13 @@ const solutions = [
   title: "Agentic Solutions for Enterprise AI Transformation",
   description: "Deeply personalize products and automate knowledge work.",
   imagePlaceholder: (
-   <Image
-    src={"/interactive/step3.jpg"}
-    alt={"gg"}
-    fill
-    className="object-cover rounded-[4px]"
+   <video
+    src="/videos/workflow-2.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="w-full h-full rounded-xl max-h-[500px]"
    />
   ),
  },
@@ -76,7 +80,7 @@ export default function AgenticSolutions() {
       Agentic Solutions
      </h1>
      <p className="mt-2 text-[20px] font-normal leading-[30spx] text-white">
-      Transform your data and expertise into agentic solutions <br /> that
+      Transform your data and problems into agentic solutions <br /> that
       continuously improve with human interaction.
      </p>
     </div>
@@ -114,7 +118,7 @@ export default function AgenticSolutions() {
            - This constrains the 'fill' Image component.
            - 'mt-8' provides spacing from the text.
           */}
-          <div className="mt-8 h-[200px] w-full relative">
+          <div className="mt-8 h-auto w-full relative rounded-xl">
            {solution.imagePlaceholder}
           </div>
          </div>

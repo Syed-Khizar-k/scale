@@ -49,9 +49,9 @@ const Secure = () => {
       Secure
      </span>
      <p className="text-sm font-medium uppercase tracking-[4px] mb-8 text-white">
-      Our cloud platform's infrastructure and operations are certified <br />{" "}
-      compliant with the following industry best practice standards and
-      frameworks
+      The security and integrity of your automated workflows are our top
+      priority. Our cloud infrastructure and operations are certified compliant
+      with the following globally recognized standards and frameworks
      </p>
 
      {/* Logo Row */}

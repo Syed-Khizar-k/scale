@@ -22,8 +22,8 @@ const SanFranciscoHq = () => {
       <div className="text-xs leading-6 tracking-[1px] mb-5 uppercase font-geist-mono">
        <span>headquarters</span>
       </div>
-      <h2 className="font-aeonik leading-snug font-light lg:leading-[1.25] text-3xl md:text-4.5xl lg:text-5xl [text-wrap:balance]">
-       San Francisco
+      <h2 className="font-aeonik leading-snug font-light lg:leading-tight text-3xl md:text-4.5xl lg:text-5xl text-balance">
+       Dubai , UAE
       </h2>
      </div>
     </div>
@@ -32,16 +32,16 @@ const SanFranciscoHq = () => {
     {/* I've replaced the generated layout with a responsive grid */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mb-16 md:mb-24">
      <div>
-      <h3 className="md:text-8xl text-6xl font-light">1000</h3>
+      <h3 className="md:text-8xl text-6xl font-light">10+</h3>
       <p className="text-base">Employees</p>
      </div>
      <div>
-      <h3 className="md:text-8xl text-6xl font-light">2016</h3>
+      <h3 className="md:text-8xl text-6xl font-light">2025</h3>
       <p className="text-base">Founded</p>
      </div>
      <div>
       <h3 className="md:text-8xl text-6xl font-light bg-linear-to-r from-purple-500 via-purple-600 to-yellow-500 bg-clip-text text-transparent">
-       $29B
+       $1.7B
       </h3>
       <p className="text-base">Valuation</p>
      </div>

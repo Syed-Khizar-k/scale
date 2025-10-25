@@ -100,17 +100,11 @@ const ContactForm = () => {
    {/* This is the main component card */}
    <div className="bg-[#1C1C1C] text-white p-16 sm:p-16 rounded-xl max-w-[592px] container ">
     {/* Header Section */}
-    <h2 className="text-3xl font-light mb-4">Get in touch with Scale</h2>
+    <h2 className="text-3xl font-light mb-4">Get in touch with RocketOps</h2>
     <p className="text-white mb-8">
      Have an inquiry for us? Please select a team you would like to reach and
      provide our information below.
      <br />
-     <br />
-     If you would like to get in touch with our sales team, please visit{" "}
-     <a href="#" className="text-white underline">
-      scale.com/demo
-     </a>
-     .
     </p>
 
     {/* Form Section */}

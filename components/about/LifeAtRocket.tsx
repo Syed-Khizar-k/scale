@@ -37,7 +37,6 @@ const LifeAtRocket = () => {
    <div className="flex flex-col justify-stretch items-center">
     {/* --- YOUTUBE VIDEO SECTION --- */}
     {/* I've replaced the custom padding-bottom with Tailwind's aspect-video */}
-    
 
     {/* --- KEEN SLIDER SECTION --- */}
     <div className="relative w-full mt-10 mb-16 max-w-[1792px]">
@@ -66,7 +65,7 @@ const LifeAtRocket = () => {
     {/* I've replaced the custom CSS module classes with functional Tailwind 
           to create a similar-looking button.
         */}
-    <WhiteBtn href={"/careers"}>RocketOps Is Growing. Grow With Us</WhiteBtn>
+    <WhiteBtn href={" "}>RocketOps Is Growing. Grow With Us</WhiteBtn>
    </div>
   </section>
  );

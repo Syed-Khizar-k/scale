@@ -84,8 +84,10 @@ const GenerativeAiSection: React.FC = () => {
 
       {/* Buttons */}
       <div className="flex gap-4 items-center flex-wrap">
-       <WhiteBtn href={"/"}>Get Free Automation Audit</WhiteBtn>
-       <TransLink href={"/build-ai"}>See Demo Workflows →</TransLink>
+       <WhiteBtn href={"https://calendly.com/sami-rocketops/30min"}>
+        Get Free Automation Audit
+       </WhiteBtn>
+     
       </div>
      </div>
     </div>

@@ -18,8 +18,8 @@ const page = () => {
    <Details />
    <LifeAtRocket />
    <TrustedBy />
-   <LearnMore />
-   <Careers />
+   {/* <LearnMore /> */}
+   {/* <Careers /> */}
    <Future />
    <Footer />
   </section>

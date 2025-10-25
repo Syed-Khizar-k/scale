@@ -17,15 +17,15 @@ const ResearchCard: React.FC<ResearchCardProps> = ({
   href,
 }) => {
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
+    <div
+      // href={href}
+      // target="_blank"
+      // rel="noopener noreferrer"
       className="embla__slide flex-none w-full sm:w-1/2 md:w-1/3 pl-4 group rounded-2xl relative text-left block"
     >
-      <div className="flex items-center h-full bg-[#1a1a1a] group-hover:bg-[#222222] transition-colors duration-150 ease-linear rounded-2xl p-4 sm:px-6 py-[32px]">
+      <div className="flex items-center h-full bg-[#1a1a1a] group-hover:bg-[#222222] transition-colors duration-150 ease-linear rounded-2xl p-4 sm:px-6 py-8">
         {/* ✅ Next.js Image instead of <img> */}
-        <div className="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 flex-shrink-0">
+        <div className="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 shrink-0">
           <Image
             src={icon}
             alt={`${title} icon`}
@@ -49,7 +49,7 @@ const ResearchCard: React.FC<ResearchCardProps> = ({
         role="none"
         className="absolute items-center duration-150 overflow-hidden justify-center 
                    w-8 h-8 sm:w-10 sm:h-10 group-hover:bg-white bg-white/10 border group-hover:border-white 
-                   transition-colors ease-linear border-white/[0.13] flex rounded-full 
+                   transition-colors ease-linear border-white/13 flex rounded-full 
                    right-4 bottom-4"
       >
         <svg
@@ -69,41 +69,41 @@ const ResearchCard: React.FC<ResearchCardProps> = ({
           </g>
         </svg>
       </div>
-    </a>
+    </div>
   );
 };
 
 const FrontierResearch: React.FC = () => {
   const cards = [
     {
-      icon: "/home/icon1.webp",
+      icon: "/home/logos/smes.png",
       title: "Built for SMEs",
       description:
         "No overbuilt enterprise pricing. Solutions sized for growing businesses.",
       href: "#",
     },
     {
-      icon: "/home/icon2.webp",
+      icon: "/home/logos/open-stack.png",
       title: "Open Stack",
       description: "n8n + open automation stack. No vendor lock-in, full control.",
       href: "#",
     },
     {
-      icon: "/home/icon3.webp",
+      icon: "/home/logos/erp.webp",
       title: "ERP-Friendly",
       description:
         "Deep integration experience with your existing business systems.",
       href: "#",
     },
     {
-      icon: "/home/icon1.webp",
+      icon: "/home/logos/ai.jpg",
       title: "AI-Enhanced",
       description:
         "Voice, chat, data enrichment - advanced AI capabilities built-in.",
       href: "#",
     },
     {
-      icon: "/home/icon2.webp",
+      icon: "/home/logos/roi.jpg",
       title: "Guaranteed ROI",
       description:
         "Pilot-based approach. We start with quick wins, guaranteed results.",

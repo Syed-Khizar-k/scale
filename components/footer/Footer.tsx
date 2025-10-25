@@ -16,30 +16,34 @@ const footerSections = [
   title: "Company",
   links: [
    { href: "/about", text: "About" },
-   { href: "/careers", text: "Careers" },
-   { href: "/security", text: "Security" },
    { href: "/legal/terms", text: "Terms" },
    { href: "/legal/privacy", text: "Privacy" },
+   { href: "/team", text: "Team" },
+   { href: "/contact", text: "Contact" },
   ],
  },
  {
   title: "Industries",
   links: [
-   { href: "/", text: "Healthcare" },
-   { href: "/", text: "Finance" },
-   { href: "/", text: "E-commerce" },
-   { href: "/", text: "Manufacturing" },
+   { href: "#", text: "Healthcare" },
+   { href: "#", text: "Finance" },
+   { href: "#", text: "E-commerce" },
+   { href: "#", text: "Manufacturing" },
   ],
  },
  {
   title: "Get in Touch",
   links: [
    {
-    href: "/",
+    href: "mailto:sami@rocketops.ai",
     text: "sami@rocketops.ai",
    },
-   { href: "/", text: "+971-55-305-5243" },
-   { href: "/", text: "Dubai, UAE" },
+   {
+    href: "mailto:umair@rocketops.ai",
+    text: "umair@rocketops.ai",
+   },
+   { href: "tel:+971553055243", text: "+971-55-305-5243" },
+   { href: "https://www.google.com/maps/place/Dubai,+UAE", text: "Dubai, UAE" },
   ],
  },
 ];
@@ -72,7 +76,7 @@ const socialLinks = [
 const Footer = () => {
  return (
   <footer className="w-full bg-black">
-   <div className="container mx-auto px-[24px] md:px-[32px] pt-12 md:pt-20 md:pb-20">
+   <div className="container mx-auto px-6 md:px-8 pt-12 md:pt-20 md:pb-0">
     <nav>
      <ul className="grid grid-cols-2 gap-y-2 gap-x-10 md:gap-10 xl:gap-0 md:grid-cols-3 xl:justify-between xl:flex xl:flex-wrap">
       {/* Main Link Sections */}
@@ -82,8 +86,8 @@ const Footer = () => {
          {section.title}
         </h2>
         <ul>
-         {section.links.map((link) => (
-          <li key={link.href} className="flex mb-3 text-xs md:text-sm md:mb-3">
+         {section.links.map((link, index) => (
+          <li key={index} className="flex mb-3 text-xs md:text-sm md:mb-3">
            <Link
             className="font-normal text-neutral-400 hover:text-white"
             href={link.href}>

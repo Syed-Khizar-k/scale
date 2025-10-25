@@ -30,7 +30,7 @@ export default function Home() {
    <MultipleCards />
    <FrontierAi />
    <Testimonials />
-   <CaseStudies />
+   {/* <CaseStudies /> */}
    <Secure />
    <Future />
    <Footer />
