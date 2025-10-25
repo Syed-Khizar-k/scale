@@ -4,6 +4,17 @@ import Link from "next/link";
 // Data for the footer links, making it easier to manage
 const footerSections = [
  {
+  title: "Company",
+  links: [
+   { href: "/about", text: "About" },
+   { href: "/terms-of-use", text: "Terms" },
+   { href: "/privacy-policy", text: "Privacy" },
+   { href: "/cookies-policy", text: "Cookies" },
+   { href: "/team", text: "Team" },
+   { href: "/contact", text: "Contact" },
+  ],
+ },
+ {
   title: "Services",
   links: [
    { href: "/services/ai-agent-automation", text: "AI Automation" },
@@ -12,16 +23,7 @@ const footerSections = [
    { href: "/services/machine-learning", text: "ML Consulting" },
   ],
  },
- {
-  title: "Company",
-  links: [
-   { href: "/about", text: "About" },
-   { href: "/legal/terms", text: "Terms" },
-   { href: "/legal/privacy", text: "Privacy" },
-   { href: "/team", text: "Team" },
-   { href: "/contact", text: "Contact" },
-  ],
- },
+
  {
   title: "Industries",
   links: [
@@ -127,11 +129,11 @@ const Footer = () => {
       © 2025 RocketOps. All rights reserved.
      </span>
      <span className="mt-4 md:mt-0 text-neutral-400">
-      <Link className="text-neutral-400 font-normal" href="/legal/terms">
+      <Link className="text-neutral-400 font-normal" href="/terms-of-use">
        Terms of Use
       </Link>{" "}
       &amp;{" "}
-      <Link className="text-neutral-400 font-normal" href="/legal/privacy">
+      <Link className="text-neutral-400 font-normal" href="/privacy-policy">
        Privacy Policy
       </Link>
      </span>
