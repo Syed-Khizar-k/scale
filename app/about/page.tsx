@@ -16,7 +16,7 @@ const page = () => {
    <Nav />
    <Hero />
    <Details />
-   <LifeAtRocket />
+   {/* <LifeAtRocket /> */}
    <TrustedBy />
    {/* <LearnMore /> */}
    {/* <Careers /> */}

@@ -98,7 +98,8 @@ const ContactForm = () => {
  return (
   <div className="bg-black min-h-screen  w-full p-4 sm:p-8 flex items-center md:justify-start justify-center font-sans">
    {/* This is the main component card */}
-   <div className="bg-[#1C1C1C] text-white p-16 sm:p-16 rounded-xl max-w-[592px] container ">
+   <div className="container mx-auto px-6 md:px-8">
+    <div className="bg-[#1C1C1C] text-white p-16 sm:p-16 rounded-xl max-w-[592px]  ">
     {/* Header Section */}
     <h2 className="text-3xl font-light mb-4">Get in touch with RocketOps</h2>
     <p className="text-white mb-8">
@@ -111,7 +112,7 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit} noValidate>
      {/* Form Row 1: First Name & Last Name */}
      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-5 mb-5">
-      <div>
+      <div className="">
        <input
         type="text"
         id="firstName"
@@ -274,6 +275,7 @@ const ContactForm = () => {
       </button>
      </div>
     </form>
+   </div>
    </div>
   </div>
  );
