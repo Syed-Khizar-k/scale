@@ -71,49 +71,47 @@ const ResearchCard: React.FC<ResearchCardProps> = ({
 
 const SpecialSec: React.FC = () => {
  const cards = [
-  {
-   icon: "/home/icon1.webp",
-   title: "AI Consulting",
-   description:
-    "Strategic guidance for AI implementation and digital transformation roadmaps.",
-   href: "#",
-  },
-  {
-   icon: "/home/icon2.webp",
-   title: "Custom Development",
-   description:
-    "Bespoke software solutions with AI integration for unique business requirements.",
-   href: "#",
-  },
-  {
-   icon: "/home/icon3.webp",
-   title: "Cloud AI Services",
-   description:
-    "Cloud-native AI solutions leveraging AWS, Azure, and Google Cloud platforms.",
-   href: "#",
-  },
-  {
-   icon: "/home/icon1.webp",
-   title: "Business Intelligence",
-   description:
-    "Advanced analytics and reporting solutions for data-driven decision making.",
-   href: "#",
-  },
-  {
-   icon: "/home/icon2.webp",
-   title: "Conversational AI",
-   description:
-    "Intelligent chatbots and virtual assistants for customer service automation.",
-   href: "#",
-  },
-  {
-   icon: "/home/icon3.webp",
-   title: "Integration Services",
-   description:
-    "Seamless integration of AI solutions with existing business systems and workflows.",
-   href: "#",
-  },
- ];
+    {
+      icon: "/home/logos/smes.png",
+      title: "Built for SMEs",
+      description:
+        "No overbuilt enterprise pricing. Solutions sized for growing businesses.",
+      href: "#",
+    },
+    {
+      icon: "/home/logos/open-stack.png",
+      title: "Open Stack",
+      description: "n8n + open automation stack. No vendor lock-in, full control.",
+      href: "#",
+    },
+    {
+      icon: "/home/logos/erp.webp",
+      title: "ERP-Friendly",
+      description:
+        "Deep integration experience with your existing business systems.",
+      href: "#",
+    },
+    {
+      icon: "/home/logos/ai.jpg",
+      title: "AI-Enhanced",
+      description:
+        "Voice, chat, data enrichment - advanced AI capabilities built-in.",
+      href: "#",
+    },
+    {
+      icon: "/home/logos/roi.jpg",
+      title: "Guaranteed ROI",
+      description:
+        "Pilot-based approach. We start with quick wins, guaranteed results.",
+      href: "#",
+    },
+    {
+      icon: "/home/icon3.webp",
+      title: "Local & Regional",
+      description: "UAE/GCC focus. Supports local compliance & data laws.",
+      href: "#",
+    },
+  ];
 
  const [emblaRef] = useEmblaCarousel({
   align: "start",
@@ -139,20 +137,21 @@ const SpecialSec: React.FC = () => {
     </div>
 
     <div
-     className="embla overflow-hidden no-scrollbar cursor-grab -ml-4"
-     ref={emblaRef}>
-     <div className="embla__container flex gap-3">
-      {cards.map((card, index) => (
-       <ResearchCard
-        key={index}
-        icon={card.icon}
-        title={card.title}
-        description={card.description}
-        href={card.href}
-       />
-      ))}
-     </div>
-    </div>
+          className="embla overflow-hidden no-scrollbar cursor-grab -ml-4"
+          ref={emblaRef}
+        >
+          <div className="embla__container flex gap-3">
+            {cards.map((card, index) => (
+              <ResearchCard
+                key={index}
+                icon={card.icon}
+                title={card.title}
+                description={card.description}
+                href={card.href}
+              />
+            ))}
+          </div>
+        </div>
    </div>
   </section>
  );

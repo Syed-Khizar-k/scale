@@ -53,7 +53,7 @@ const Companies = () => {
    <div className="container mx-auto md:px-[32px] px-[24px]">
     {/* --- Main Heading --- */}
     <h2 className="mb-12 text-sm leading-6 text-white">
-     Scale works with{" "}
+     RocketOps works with{" "}
      {logoData.map((item, index) => (
       <React.Fragment key={item.name}>
        <button

@@ -41,9 +41,9 @@ const SanFranciscoHq = () => {
      </div>
      <div>
       <h3 className="md:text-8xl text-6xl font-light bg-linear-to-r from-purple-500 via-purple-600 to-yellow-500 bg-clip-text text-transparent">
-       $1.7B
+       20+
       </h3>
-      <p className="text-base">Valuation</p>
+      <p className="text-base">Happy Clients</p>
      </div>
     </div>
 

@@ -7,7 +7,7 @@ import useEmblaCarousel from "embla-carousel-react";
 const solutions = [
  {
   sector: "PUBLIC SECTOR",
-  title: "Agentic Solutions for Defense and Intelligence",
+  title: "Agentic Solutions for Startups and Public Sector",
   description: "Orchestrate agent workflows for decision advantage.",
   imagePlaceholder: (
    <video

@@ -1,13 +1,13 @@
 {
-  "/_not-found/page": "/_not-found",
   "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
   "/about/page": "/about",
   "/contact/page": "/contact",
-  "/page": "/",
   "/cookies-policy/page": "/cookies-policy",
+  "/page": "/",
   "/privacy-policy/page": "/privacy-policy",
   "/services/[slug]/page": "/services/[slug]",
   "/services/page": "/services",
-  "/team/page": "/team",
-  "/terms-of-use/page": "/terms-of-use"
+  "/terms-of-use/page": "/terms-of-use",
+  "/team/page": "/team"
 }
