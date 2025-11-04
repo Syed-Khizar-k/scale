@@ -31,7 +31,7 @@ const LogoShowcase = () => {
    <div className="container mx-auto">
     {/* --- Main Heading (Mobile) --- */}
     <h2 className="mb-8 text-base text-gray-400">
-     Scale works with Generative AI Companies, U.S. Government Agencies &amp;
+     RocketOps works with Generative AI Companies, U.A.E. Government Agencies &amp;
      Enterprises
     </h2>
 

@@ -35,7 +35,7 @@ const sectionData: FeatureSectionProps[] = [
   reverseLayout: false, // Section 1
  },
  {
-  title: "Ai Development",
+  title: "AI Development",
   subtitle: "Custom AI solutions tailored to your business needs",
   description:
    "Scale Generative AI Data Engine powers many of the most advanced LLMs and generative models in the world through world-class RLHF, data generation, model evaluation, safety, and alignment.",
