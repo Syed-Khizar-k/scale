@@ -49,8 +49,8 @@ const Companies = () => {
  }, []);
 
  return (
-  <section className="bg-black hidden lg:block pt-[256px] pb-16 w-full text-center">
-   <div className="container mx-auto md:px-[32px] px-[24px]">
+  <section className="bg-black hidden lg:block pt-64 pb-16 w-full text-center">
+   <div className="container mx-auto md:px-8 px-6">
     {/* --- Main Heading --- */}
     <h2 className="mb-12 text-sm leading-6 text-white">
      RocketOps works with{" "}

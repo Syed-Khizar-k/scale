@@ -1,4 +1,4 @@
-// File: /home/alphadeveloper/Documents/GitHub/scale/app/contact/page.tsx
+// File: C:\Users\User\Desktop\scale\app\contact\page.tsx
 import * as entry from '../../../../app/contact/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import CookiesConsent from "@/components/home/CookiesConsent";
+import Script from "next/script";
 
 const geistSans = Geist({
  variable: "--font-geist-sans",
@@ -26,6 +27,18 @@ export default function RootLayout({
  return (
   <html lang="en">
    <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <Script
+     src="https://www.googletagmanager.com/gtag/js?id=G-7EY4JE9TQN"
+     strategy="afterInteractive"
+    />
+    <Script id="google-analytics" strategy="afterInteractive">
+     {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-7EY4JE9TQN');
+          `}
+    </Script>
     <CookiesConsent />
     {children}
    </body>

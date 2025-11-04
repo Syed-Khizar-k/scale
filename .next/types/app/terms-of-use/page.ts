@@ -1,4 +1,4 @@
-// File: /home/alphadeveloper/Documents/GitHub/scale/app/terms-of-use/page.tsx
+// File: C:\Users\User\Desktop\scale\app\terms-of-use\page.tsx
 import * as entry from '../../../../app/terms-of-use/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

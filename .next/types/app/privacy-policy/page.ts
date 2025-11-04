@@ -1,4 +1,4 @@
-// File: /home/alphadeveloper/Documents/GitHub/scale/app/privacy-policy/page.tsx
+// File: C:\Users\User\Desktop\scale\app\privacy-policy\page.tsx
 import * as entry from '../../../../app/privacy-policy/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

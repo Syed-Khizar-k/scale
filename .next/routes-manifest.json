@@ -78,6 +78,18 @@
       "namedRegex": "^/services(?:/)?$"
     },
     {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/sitemaps/general.xml",
+      "regex": "^/sitemaps/general\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemaps/general\\.xml(?:/)?$"
+    },
+    {
       "page": "/team",
       "regex": "^/team(?:/)?$",
       "routeKeys": {},

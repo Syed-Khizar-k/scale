@@ -1,13 +1,15 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/_not-found/page": "/_not-found",
-  "/about/page": "/about",
-  "/contact/page": "/contact",
-  "/cookies-policy/page": "/cookies-policy",
-  "/page": "/",
-  "/privacy-policy/page": "/privacy-policy",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/favicon.ico/route": "/favicon.ico",
+  "/sitemaps/general.xml/route": "/sitemaps/general.xml",
   "/services/[slug]/page": "/services/[slug]",
+  "/cookies-policy/page": "/cookies-policy",
+  "/about/page": "/about",
+  "/page": "/",
+  "/contact/page": "/contact",
+  "/privacy-policy/page": "/privacy-policy",
   "/services/page": "/services",
-  "/terms-of-use/page": "/terms-of-use",
-  "/team/page": "/team"
+  "/team/page": "/team",
+  "/terms-of-use/page": "/terms-of-use"
 }
