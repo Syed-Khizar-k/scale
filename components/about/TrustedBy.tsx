@@ -8,49 +8,49 @@ import Marquee from "react-fast-marquee";
 // We define the logos in an array to keep the JSX clean
 const logos = [
  {
-  alt: "n8n",
+  alt: "n8n automation platform logo – workflow integration partner of RocketOps.ai",
   src: "/home/logos/n8n-logo.jpg",
   width: 160,
   height: 64,
  },
  {
-  alt: "vapi",
+  alt: "Vapi AI voice integration logo – connected with RocketOps.ai automations",
   src: "/home/logos/vapi-logo.svg",
   width: 57,
   height: 16,
  },
  {
-  alt: "gemini",
+  alt: "Google Gemini AI logo – large language model used by RocketOps.ai",
   src: "/home/logos/gemini-logo.jpg",
   width: 37,
   height: 37,
  },
  {
-  alt: "chatgpt",
+  alt: "ChatGPT OpenAI logo – AI chatbot technology integrated with RocketOps.ai",
   src: "/home/logos/gpt-logo.png",
   width: 108,
   height: 18,
  },
  {
-  alt: "11 labs",
+  alt: "ElevenLabs voice synthesis logo – AI speech partner for RocketOps.ai",
   src: "/home/logos/11-logo.webp",
   width: 72,
   height: 20,
  },
  {
-  alt: "claude",
+  alt: "Claude AI logo – Anthropic large language model integrated in RocketOps.ai",
   src: "/home/logos/claude.jpg",
   width: 70,
   height: 24,
  },
  {
-  alt: "Cisco",
+  alt: "Cisco enterprise automation logo – RocketOps.ai corporate technology partner",
   src: "/about/logo7.svg",
   width: 70,
   height: 37,
  },
  {
-  alt: "time_logo",
+  alt: "TIME magazine logo – featured recognition for RocketOps.ai innovation",
   src: "/about/logo8.svg",
   width: 82,
   height: 25,

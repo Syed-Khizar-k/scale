@@ -46,9 +46,9 @@ const GenerativeAiSection: React.FC = () => {
     </div>
 
     {/* Main Heading */}
-    <h2 className="text-center text-4xl md:text-5xl font-light mb-4">
+    <h3 className="text-center text-4xl md:text-5xl font-light mb-4">
      Ready to Transform Your Business?
-    </h2>
+    </h3>
     <p className="mt-4 lg:mt-2 text-center leading-[1.60] lg:text-xl block font-normal">
      Book your free automation audit and discover how much time and money you
      can save with intelligent automation.

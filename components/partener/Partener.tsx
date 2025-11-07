@@ -53,9 +53,9 @@ export default function PartnersSection() {
 
    <div className="mx-auto container pb-[72px] md:pb-0 md:px-[32px]">
     <div className="text-center">
-     <h2 className="text-sm font-light px-6 md:p-0 uppercase tracking-widest text-white font-mono">
+     <h3 className="text-sm font-light px-6 md:p-0 uppercase tracking-widest text-white font-mono">
       Generative AI providers we work with:
-     </h2>
+     </h3>
     </div>
 
     {/* Mobile: Infinite Horizontal Carousel */}

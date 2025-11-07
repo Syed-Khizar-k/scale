@@ -12,33 +12,42 @@ interface CaseStudyCardProps {
 // Data for the cards (no change)
 const caseStudies = [
  {
-  category: "Partner",
-  title: "Anthropic Partners with Scale to Bring Generative AI to Enterprises",
-  logoContent: (
-   <span className="text-white text-2xl font-semibold">scale | ANTHROPIC</span>
-  ),
- },
- {
-  category: "Partner",
-  title: "Meta and Scale Partner to Drive Enterprise Adoption of Llama",
+  category: "Case Studies",
+  title: "RocketOps Ai empowers Pakways ERP to Automate complete workflows",
   logoContent: (
    <span className="text-white text-2xl font-semibold">
-    scale | <span className="font-bold">∞</span> Meta
+    RocketOps Ai | Pakways ERP
    </span>
   ),
  },
  {
   category: "Case Studies",
-  title: "Customer Case Study: Cohere",
+  title:
+   "RocketOps Ai empowers TravelWise to Enhance Customer Experience and automate their booking systems",
   logoContent: (
-   <span className="text-white text-2xl font-semibold">scale × cohere</span>
+   <span className="text-white text-2xl font-semibold">
+    RocketOps Ai | TravelWise
+   </span>
   ),
  },
  {
-  category: "Blog",
-  title: "Scale's SEAL: Expert-Evaluations",
+  category: "Case Studies",
+  title:
+   "RocketOps Ai enables TechDaddy to automate the client and freelauncers relations management",
   logoContent: (
-   <span className="text-white text-2xl font-semibold">scale | Blog Post</span>
+   <span className="text-white text-2xl font-semibold">
+    RocketOps Ai | TechDaddy
+   </span>
+  ),
+ },
+ {
+  category: "Case Studies",
+  title:
+   "RocketOps Ai helps Dosta to streamline operations and improve customer engagement and automate the deleiveries and orders system",
+  logoContent: (
+   <span className="text-white text-2xl font-semibold">
+    RocketOps Ai | Dosta{" "}
+   </span>
   ),
  },
 ];
@@ -53,16 +62,16 @@ const CaseStudyCard: React.FC<CaseStudyCardProps> = ({
  return (
   // This is the Embla "slide"
   // 'pl-4' creates the gutter/spacing between cards
-  <div className="embla__slide flex-none w-10/12 sm:w-2/3 md:w-1/3 lg:w-[30%] pl-4">
+  <div className="embla__slide select-none  flex-none w-10/12  sm:w-2/3 md:w-1/3 lg:w-[36%] pl-4">
    <div className="bg-black rounded-lg h-full flex flex-col">
-    <div className="bg-[#111111] h-48 flex items-center justify-center rounded-t-lg p-6">
+    <div className="bg-[#111111] select-none h-68 flex items-center justify-center rounded-t-lg p-6">
      {logoContent}
     </div>
     <div className="pt-6">
      <span className="text-purple-400 text-[10px] font-light uppercase tracking-wider">
       {category}
      </span>
-     <h3 className="text-white text-lg font-light mt-2 hover:underline cursor-pointer">
+     <h3 className="text-white  text-lg font-light mt-2 hover:underline cursor-pointer">
       {title}
      </h3>
     </div>
@@ -93,7 +102,7 @@ const CaseStudiesSection: React.FC = () => {
 
      {/* Main Heading */}
      <h2 className="text-center text-4xl md:text-5xl font-light mb-4">
-      Coming Soon: Real Results, Real Clients
+      Real Results, Real Clients
      </h2>
      <p className="mt-4 lg:mt-2 text-center max-w-[700px] mx-auto leading-[1.60] lg:text-xl block font-normal">
       We're building case studies with our first clients. Soon you'll see

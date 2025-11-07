@@ -86,9 +86,9 @@ const TestimonialSection: React.FC = () => {
     </div>
 
     {/* Main Heading */}
-    <h2 className="text-center text-4xl md:text-5xl font-light mb-4">
+    <h3 className="text-center text-4xl md:text-5xl font-light mb-4">
      What Our Clients Say
-    </h2>
+    </h3>
     <p className="mt-4 lg:mt-2 text-center leading-[1.60] lg:text-xl block font-normal">
      Hear from businesses across UAE who have transformed their operations with
      our AI solutions.

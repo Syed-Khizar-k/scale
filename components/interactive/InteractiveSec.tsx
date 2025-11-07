@@ -17,6 +17,7 @@ const featureSections = [
   description:
    "Design & build workflows using n8n to connect your apps. Eliminate manual data entry, errors, and delays.",
   image: "/home/n8.webp",
+  alt: "n8n workflow automation dashboard – RocketOps.ai integration connecting business apps and APIs",
  },
  {
   id: "ERP Integration",
@@ -24,6 +25,7 @@ const featureSections = [
   description:
    "Seamless syncing between your ERP and business tools. Your systems talk; everything stays up to date.",
   image: "/home/foundation-models.webp",
+  alt: "foundation models visualization – ERP data syncing with AI automation through RocketOps.ai",
  },
  {
   id: "enterprise-data",
@@ -31,6 +33,7 @@ const featureSections = [
   description:
    "Use voice, chat, predictive logic to handle repetitive tasks. Let AI agents do the heavy lifting.",
   image: "/home/whole-model.webp",
+  alt: "AI automation agents performing voice and chat tasks – RocketOps.ai intelligent workflow automation",
  },
  {
   id: "enterproise-data",
@@ -38,6 +41,7 @@ const featureSections = [
   description:
    "Lead scraping + AI voice calls + email nurture sequences. Fill your pipeline without lifting a finger.",
   image: "/interactive/step3.jpg",
+  alt: "AI-powered outreach automation – lead scraping and voice call sequences by RocketOps.ai",
  },
  {
   id: "enterpse-data",
@@ -45,6 +49,7 @@ const featureSections = [
   description:
    "Monitor, maintain, and evolve your automations. Zero downtime — always improving.",
   image: "/interactive/step2.jpg",
+  alt: "Managed automation support team – RocketOps.ai monitoring and optimizing business workflows",
  },
 ];
 
@@ -112,7 +117,7 @@ const InteractiveSec = () => {
         className="relative w-full h-[600px] max-w-[700px]">
         <Image
          src={currentImage}
-         alt={activeSection}
+         alt={"automation worlkflow models that we use at RocketOps Ai"}
          fill
          className="object-cover rounded-lg"
          priority
@@ -138,7 +143,7 @@ const InteractiveSec = () => {
          <div className="relative w-full h-[250px] mb-8">
           <Image
            src={section.image}
-           alt={section.title}
+           alt={section.alt}
            fill
            className="object-contain rounded-lg"
           />

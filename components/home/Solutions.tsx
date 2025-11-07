@@ -73,12 +73,12 @@ export default function AgenticSolutions() {
   <div className="bg-black text-white w-full py-16 md:py-24">
    <div className="mx-auto container px-6 md:px-8">
     <div className="text-center max-w-3xl mx-auto">
-     <h3 className="text-sm font-light uppercase tracking-widest mb-[20px] text-white font-mono">
+     <p className="text-sm font-light uppercase tracking-widest mb-[20px] text-white font-mono">
       APPLY AI
-     </h3>
-     <h1 className="mt-4 text-4xl md:text-5xl font-light tracking-tight">
+     </p>
+     <h3 className="mt-4 text-4xl md:text-5xl font-light tracking-tight">
       Agentic Solutions
-     </h1>
+     </h3>
      <p className="mt-2 text-[20px] font-normal leading-[30spx] text-white">
       Transform your data and problems into agentic solutions <br /> that
       continuously improve with human interaction.

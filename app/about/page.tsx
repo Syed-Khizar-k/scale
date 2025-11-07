@@ -1,4 +1,3 @@
-
 import Details from "@/components/about/Details";
 import Hero from "@/components/about/Hero";
 import TrustedBy from "@/components/about/TrustedBy";
@@ -7,6 +6,7 @@ import Future from "@/components/home/Future";
 import Nav from "@/components/nav/Nav";
 import React from "react";
 import type { Metadata } from "next";
+import Faqs from "@/components/home/Faqs";
 export const metadata: Metadata = {
  title: "About RocketOps.ai | Mission, Team, & AI Automation Expertise in UAE",
  description:
@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   canonical: "https://rocketops.ai/about",
  },
 };
+
 const page = () => {
  return (
   <section>
@@ -46,6 +47,7 @@ const page = () => {
    <TrustedBy />
    {/* <LearnMore /> */}
    {/* <Careers /> */}
+   <Faqs />
    <Future />
    <Footer />
   </section>

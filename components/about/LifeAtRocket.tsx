@@ -47,7 +47,7 @@ const LifeAtRocket = () => {
         className="keen-slider__slide relative overflow-hidden md:min-w-[348px] min-w-[288px] max-w-[420px]">
         <div className="relative w-full h-full  border-2 border-[#e5e7eb41] rounded-xl">
          <Image
-          alt={`Slider image ${index + 1}`}
+          alt={`life at rocket ops ${index + 1}`}
           loading="eager"
           decoding="async"
           fill

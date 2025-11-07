@@ -16,10 +16,10 @@ const Hero = () => {
      Your browser does not support the video tag.
     </video>
     <div className="text-center md:absolute md:bottom-[0px] md:z-50 py-4">
-     <h2 className="font-aeonik leading-snug lg:leading-tight text-3xl md:text-4.5xl lg:text-5xl text-balance">
+     <h1 className="font-aeonik leading-snug lg:leading-tight text-3xl md:text-4.5xl lg:text-5xl text-balance">
       Our mission is to develop reliable AI systems for the world’s most
       important decisions
-     </h2>
+     </h1>
      <p className="mt-4 lg:mt-4 leading-[1.60] lg:text-xl text-balance [white-space:inherit] block font-normal">
       We provide high-quality data and full-stack technologies that power the
       world’s leading models and enable enterprises and governments to build,
