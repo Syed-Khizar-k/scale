@@ -7,6 +7,7 @@ import WhiteBtn from "../ui/WhiteBtn";
 const navLinks = [
  { href: "/", label: "Home" },
  { href: "/about", label: "About" },
+ { href: "/products", label: "Products" },
  { href: "/services", label: "Services" },
  { href: "/team", label: "Team" },
  { href: "/contact", label: "Contact" },

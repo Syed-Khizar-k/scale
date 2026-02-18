@@ -22,6 +22,7 @@ export async function GET() {
  const staticPages = [
   "/",
   "/about",
+  "/products",
   "/services",
   "/team",
   "/contact",
@@ -54,7 +55,7 @@ export async function GET() {
         (page) => `
             <url>
               <loc>${page.url}</loc>
-            </url>`
+            </url>`,
        )
        .join("")}
     </urlset>`,
@@ -62,6 +63,6 @@ export async function GET() {
    headers: {
     "Content-Type": "application/xml",
    },
-  }
+  },
  );
 }
